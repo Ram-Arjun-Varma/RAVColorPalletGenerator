@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="styles.css"/>
+        <title>RAV Color Palette Generator</title>
+    </head>
+    <body>
+        <div class="container mx-auto py-10">
+            <h1 class="text-4xl font-extrabold text-center mb-10 text-gray-800">RAV Color Palette Generator</h1>
+            <div id="palette" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
+                <!-- Color boxes will be injected here -->
+            </div>
+            <div class="text-center mt-10">
+                <button id="randomizeBtn" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out">
+                    Randomize Palette
+                </button>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+</html>
